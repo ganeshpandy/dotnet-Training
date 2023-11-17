@@ -1,0 +1,10 @@
+Question 1:
+Define an interface named `ITransport` with a method signature `Start()`. Create a class `Car` that implements this interface and provides a concrete implementation for starting the car.
+Question 2:
+Create a class named `Book` with public fields for `title` and `author`. Implement a parameterized constructor that initializes these fields. Create an object of the `Book` class and display the details in the console.
+Question 3:
+Create a base class named `Shape` with a method `Draw()`. Derive two classes, `Circle` and `Square`, from the `Shape` class. Implement the `Draw()` method in each derived class to display "Drawing a circle" and "Drawing a square," respectively.
+Question 4:
+Create a class named `Calculator` with methods for basic arithmetic operations such as `Add`, `Subtract`, `Multiply`, and `Divide`. Implement these methods and demonstrate their usage by performing a simple calculation in a C# console application.
+Question 5:
+Define a base class `Vehicle` with a method `StartEngine()`. Derive two classes, `Car` and `Motorcycle`, from the `Vehicle` class. Override the `StartEngine()` method in each derived class to display "Car engine started" and "Motorcycle engine started," respectively. Create objects of both derived classes and call their `StartEngine()` methods.

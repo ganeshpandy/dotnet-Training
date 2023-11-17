@@ -1,0 +1,4 @@
+Name:alex
+ TicketId:alex123
+ Date:12/sep
+ Price:110

@@ -1,0 +1,9 @@
+TicketType:bus
+ CustomerName:alex
+ Phone Number:10Id:100
+ CustomerName:jack
+ BookName:harry
+ Date:12/sepId:100
+ CustomerName:jack
+ BookName:harrypotter
+ Date:12/sep/2023

@@ -1,0 +1,36 @@
+File Operations :
+
+1) create the class Employee 
+	Properties : Id,Name, EmailId,Address,Mobile .Get the input from ReadLine();
+	Output: create the file an stores it to Employee file and append the input .
+
+2) create the class Order 
+	Properties : Id,Item, Category,OrderQty,Price .Get the input from ReadLine();
+	Output: create the file an stores it to Order file and append the input .
+	
+3) Cretae the file called TicketBooking 
+	 
+	Input : ReadLine() : if copy , then do copy the file operation
+	if Replace , then do Replace the file operation 
+	if delete , then do delete the file operation 
+	if Append , then do Append the file operation 
+	Note : Use Switch statements
+	
+4) IRCTC booking 
+	All the file operations 
+	
+5) Library Managment system 
+	All the file operations 
+	
+6) Student Managment System 
+	All the file operations 
+	
+7) Swiggy Food Order 
+	All the file operations
+	
+8) Medicine Order Online
+	All the file operations
+	
+9) Try catch Examples
+
+10) finally Examples 

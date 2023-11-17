@@ -1,0 +1,48 @@
+1	stores SIS  employee Name into array	 	 
+ 	Access using While loop	 	 
+ 	Print Welcome + Name 	 	 
+ 	 	 	 
+2	stores SIS  employee Name into array	 	 
+ 	Access using Do While loop	 	 
+ 	Print Welcome + Name 	 	 
+ 	 	 	 
+3	Stores Indian Cricket Player into Array 	 	 
+ 	Access using While loop	 	 
+ 	Print Welcome + Name 	 	 
+ 	 	 	 
+4	Stores Indian Cricket Player into Array 	 	 
+ 	Access using Do While loop	 	 
+ 	Print Welcome + Name 	 	 
+ 	 	 	 
+5	Stores Mobile Models into Array	 	 
+ 	Access using While loop	 	 
+ 	Print Mobile Model  + Name 	 	 
+ 	 	 	 
+6	Stores Mobile Models into Array	 	 
+ 	Access using Do While loop	 	 
+ 	Print Mobile Model  + Name 	 	 
+ 	 	 	 
+7	Stores Mobile Models into Array	 	 
+ 	Access using Switch loop	 	 
+ 	Print Mobile Proze based on the Model	 	 
+ 	 	 	 
+	 
+ 	 	 	 
+9	Array Methods() Exploration and Samples	 	 
+ 	 	 	 
+10	Foreach Practice 	 	 
+ 	 	 	 
+11	Store all the user name in the Array called User	 	 
+ 	Store all the password  in the Array called Password 	 	 
+ 	get the user input Username and password	 	 
+ 	Perform Foreach	 	 
+ 	check if any of the username and password matches 	 	 
+ 	then success login 	 	 
+ 	else Login Failed	 	 
+ 	 	train name  array 	Ticker count array
+12	store all the train name in the array 	Rockfort	120
+ 	store ticket count in concern index	Sahapti	100
+ 	Get the user input As Trainname and print the availabilty based on below	 	 
+ 	do foreach for train name  array 	 	 
+ 	 Inside the Foreach Do One more forach for Ticker count array	 	 
+ 	check and print (use if else)
