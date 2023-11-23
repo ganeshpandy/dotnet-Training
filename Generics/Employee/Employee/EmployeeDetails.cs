@@ -10,7 +10,6 @@ namespace Employee
 {
      class EmployeeDetails
     {
-
         public List<Employee> SaveEmployee()
         {
             Console.WriteLine("Enter the Id");

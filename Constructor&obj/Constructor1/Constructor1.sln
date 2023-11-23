@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor3", "Constructor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor4", "Constructor4\Constructor4.csproj", "{E0B36B12-7A8E-4300-B1C4-7452AAA5865B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor5", "constructor5\constructor5.csproj", "{7BD6CD94-D7D7-4E56-9A4C-CE2E04144283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "constructor5", "constructor5\constructor5.csproj", "{7BD6CD94-D7D7-4E56-9A4C-CE2E04144283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor6", "Constructor6\Constructor6.csproj", "{85F5473C-1EAB-4C02-8E10-F5616ABB1083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7BD6CD94-D7D7-4E56-9A4C-CE2E04144283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD6CD94-D7D7-4E56-9A4C-CE2E04144283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD6CD94-D7D7-4E56-9A4C-CE2E04144283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F5473C-1EAB-4C02-8E10-F5616ABB1083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F5473C-1EAB-4C02-8E10-F5616ABB1083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F5473C-1EAB-4C02-8E10-F5616ABB1083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F5473C-1EAB-4C02-8E10-F5616ABB1083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

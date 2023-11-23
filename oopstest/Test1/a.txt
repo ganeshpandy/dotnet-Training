@@ -1,0 +1,35 @@
+Create a C# program that defines an abstract base class Employee and an interface IWorker with the following specifications:
+ 
+Abstract Base Class (Employee):
+ 
+The Employee class should be abstract.
+Include five properties: Name (string), Salary (Decimal), DOB (DateTime), Gender (string), and ContactNumber (long).
+Implement a parameterized constructor that initializes the Name, Salary ,DOB, Gender, and ContactNumber properties.
+Declare an abstract method named DisplayDetails with no parameters and a return type of void.
+ 
+Interface (IWorker):
+ 
+Declare three methods in the IWorker interface:
+Enrollment with no parameters and a return type of void.
+Dispatch with no parameters and a return type of void.
+GetworkerID with no parameters and a return type of int.
+ 
+Derived Class (Worker):
+ 
+Inherit from the Employee class and implement the IWorker interface.
+In the Worker class, implement the abstract method DisplayDetails to display the details of the worker, including all properties.
+Include an additional property in the Worker class: WorkerID (int).
+Implement the methods from the IStudent interface.
+ 
+Derived Class (worker2):
+ 
+Inherit from the Worker class and implement the IWorker interface.
+In the Worker2 class, implement the abstract method DisplayDetails to display the details of the worker2, including all properties.
+Include an additional property in the Worker class: Department (string).
+Implement the methods from the IStudent interface.
+ 
+Main Method:
+ 
+In the Main method, create an instance of the Worker2 class, set its properties, and then call the DisplayDetails method to display the details of the worker,worker2.
+Call the methods from the IWorker interface on the Worker instance.
+Write the complete C# program to achieve the above requirements.

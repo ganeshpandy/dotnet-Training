@@ -1,0 +1,28 @@
+Create a C# program that defines an abstract base class Person and an interface IStudent with the following specifications:
+ 
+Abstract Base Class (Person):
+ 
+The Person class should be abstract.
+Include five properties: FirstName (string), LastName (string), Age (int), Gender (string), and ContactNumber (long).
+Implement a parameterized constructor that initializes the FirstName, LastName, Age, Gender, and ContactNumber properties.
+Declare an abstract method named DisplayDetails with no parameters and a return type of void.
+ 
+Interface (IStudent):
+ 
+Declare three methods in the IStudent interface:
+EnrollCourse with no parameters and a return type of void.
+SubmitAssignment with no parameters and a return type of void.
+GetStudentID with no parameters and a return type of string.
+ 
+Derived Class (Student):
+ 
+Inherit from the Person class and implement the IStudent interface.
+In the Student class, implement the abstract method DisplayDetails to display the details of the student, including all properties.
+Include an additional property in the Student class: StudentID (string).
+Implement the methods from the IStudent interface.
+ 
+Main Method:
+ 
+In the Main method, create an instance of the Student class, set its properties, and then call the DisplayDetails method to display the details of the student.
+Call the methods from the IStudent interface on the Student instance.
+Write the complete C# program to achieve the above requirements.
