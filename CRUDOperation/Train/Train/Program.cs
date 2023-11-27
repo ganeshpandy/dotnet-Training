@@ -1,6 +1,6 @@
-﻿namespace ICrud
+﻿namespace Train
 {
-     class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

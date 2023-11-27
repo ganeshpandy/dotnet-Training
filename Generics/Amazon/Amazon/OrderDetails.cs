@@ -14,7 +14,7 @@ namespace Amazon
         {
         new Order() 
         {Id=101,Name="Charles",OrderType="Mobile",MobileName="Samsung",Address="Chennai",City="KKDI",Amount=12000,PhNo=123456}
-        };
+        };            
             return list;
         }
         public void DisplayOrder(List<Order> orders) 
