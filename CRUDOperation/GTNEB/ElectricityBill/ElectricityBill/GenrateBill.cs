@@ -8,21 +8,26 @@ namespace ElectricityBill
 {
     class GenrateBill<T> : CustomerDetails<T>
     {
-
+        //list.Display(list.GetName());
         public T? OldReading { get; set; }
         public T? NewReading { get; set; }
         public T? Amount { get; set; }
 
-        public T Calculate()
+        /*public void GetAmount(T value) 
+        {            
+            Console.WriteLine(value);
+        }
+        public T SetAmount(T Amount) 
         {
             Amount = OldReading - NewReading;
-        }
-        //CustomerID,CustomerName,Address,Phno
-        List<CustomerDetails<T>> list = new List<CustomerDetails<T>>();
+        }*/
+        
+    //CustomerID,CustomerName,Address,Phno
+    List<CustomerDetails<T>> list = new List<CustomerDetails<T>>();
 
         List<GenrateBill<T>> billList = new List<GenrateBill<T>>();
 
-        CustomerDetails<T> customer = null, OldData = null;
+        GenrateBill<T> bill = null, OldCus = null;
         public List<CustomerDetails<T>> CreateCustomer()
         {
             CustomerDetails<T> customer = new CustomerDetails<T>();
@@ -91,6 +96,32 @@ namespace ElectricityBill
                     Console.WriteLine("Amount :" + bills.Amount);                    
                 }
             }            
+        }
+        public void Update()
+        {
+            Console.Write("Enter  ID to update: ");
+            int UpdateCus = int.Parse(Console.ReadLine()!);            
+
+            foreach (var data in billList)
+            {
+                if (data.CustomerID == UpdateCus)
+                {
+                    OldCus = data;
+                    break;
+                }
+            }
+            //OldReading,NewReading,Amount
+            Console.Write("Enter OldReading: ");
+                billList.OldReading = int.Parse(Console.ReadLine());
+
+                Console.Write("Enter New NewReading: ");
+                billList.NewReading = Console.ReadLine();
+
+                Console.Write("Enter Amount : ");
+                billList.Amount = Console.ReadLine();
+               
+                Console.WriteLine("Details updated!");            
+            
         }
         public void Delete() 
         {

@@ -1,4 +1,4 @@
-﻿namespace StudentMarks
+﻿/*namespace StudentMarks
 {
     class Student
     {
@@ -52,3 +52,4 @@
         }
     }
 }
+*/

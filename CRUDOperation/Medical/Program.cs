@@ -1,4 +1,4 @@
-﻿namespace Employee
+﻿namespace Medical
 {
     class Example
     {

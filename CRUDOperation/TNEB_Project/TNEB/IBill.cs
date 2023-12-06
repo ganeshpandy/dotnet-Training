@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Indeed
+namespace TNEB
 {
-    public class JobApply:Employee
+     interface IBill
     {
-
+        int Calculate();
+        DateOnly Getdate();
     }
 }

@@ -1,0 +1,15 @@
+Imagine you are developing a console application for a school management system. Implement a simple CRUD system to manage a list of students assigned to a teacher. Each student should have a name, roll number ,gender, date of birth, address and grade.
+ 
+Create a Student: Allow the teacher to input a student's name, roll number, gender, date of birth, address and grade, and add it to the list of students assigned to them.
+ 
+Read All Students: Display a list of all students assigned to the teacher with their names, roll numbers, and grades.
+ 
+Read Student by Roll Number: Prompt the teacher to enter the roll number of a student and display the details of that specific student.
+ 
+Update Student Grade: Prompt the teacher to enter the roll number of a student whose grade they want to update. If the student exists, allow the teacher to update the student's grade.
+ 
+Delete Student: Prompt the teacher to enter the roll number of a student to be removed from the list.
+ 
+Exit the Program: Provide an option to exit the program.
+ 
+Use a class to represent a student, and store the students in a list assigned to a specific teacher. Ensure that the program handles user input gracefully, providing appropriate messages for success or failure.

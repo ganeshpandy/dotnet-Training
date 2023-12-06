@@ -1,8 +1,9 @@
-﻿using System.Windows.Markup;
+﻿using Customer;
+using System.Windows.Markup;
 
-namespace Employee
+namespace Medical
 {
-    public class CRUDOperation:EmployeeDetails
+    public class CRUDOperation: CustomerDetails
     {
         public void ChooseOption()
         {
