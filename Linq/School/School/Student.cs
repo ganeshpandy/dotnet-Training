@@ -1,4 +1,6 @@
-﻿namespace School
+﻿using System.Runtime.Intrinsics.X86;
+
+namespace School
 {
     internal class Student
     {
@@ -20,7 +22,15 @@
         }
         public void Display()
         {
-            
+            Console.WriteLine("Using select : ");
+
+            var Find = from item in list
+                       select item.StudentName;
+            foreach (var item in list) 
+            {
+                Console.WriteLine(StudentName);
+            }
+
             foreach (var student in list)
             {
                 var total = student.Marks.Sum();
@@ -35,10 +45,9 @@
 
             }          
             var max = list.Max(student => student.TotalMarks);
-            Console.WriteLine($"Maximum Total Mark Among Students: {max}");
+            Console.WriteLine($"Maximum Total Mark : {max}");
 
-            /*var Pass = list.All(student => student.Marks.All(mark => mark > 50));
-            Console.WriteLine($"Studentmarks"+Pass);*/
+            
         }
     }
 }

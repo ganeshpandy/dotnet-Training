@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    internal class Department
+    public class Department:Company
     {
-        public int DepartmentId { get; set; }        
+        //public int DepartmentId { get; set; }        
         public string DepartmentName { get; set; }
     }
 }
