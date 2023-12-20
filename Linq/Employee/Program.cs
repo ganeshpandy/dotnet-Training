@@ -15,7 +15,7 @@
             //details.SortingOperation(employeeList, departmentList, companyList);
 
             // Perform join operations
-            //details.Join(employeeList, departmentList, companyList);
+            details.Join(employeeList, departmentList, companyList);
 
             // Perform group operations
             //details.GroupOperation(employeeList, departmentList, companyList);

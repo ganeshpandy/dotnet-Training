@@ -176,10 +176,27 @@ namespace Employee
                                 EmployeeDetails = e != null ? e.EmployeeName : "Null",
                                 DepartmentName = dep.DepartmentName
                             };
-
             foreach (var result in rightJoin)
             {
                 Console.WriteLine($"Employee: {result.EmployeeDetails}, Department: {result.DepartmentName}");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("=================Rightjoin3=======================");
+            var rightJoin3 = from com in companylist
+                                 join dep in departmentlist on com.DepartmentId equals dep.DepartmentId into depGroup
+                                 from dep in depGroup.DefaultIfEmpty()
+                                 join emp in employeelist on dep.DepartmentId equals emp.DepartmentId into empGroup
+                                 from emp in empGroup.DefaultIfEmpty()
+                                 select new
+                                 {
+                                     EmployeeDetails = emp != null ? emp.EmployeeName : "Null",
+                                     DepartmentName = dep != null ? dep.DepartmentName : "Null",
+                                     CompanyName = com.CompanyName
+                                 };
+            foreach (var result in rightJoin3)
+            {
+                Console.WriteLine($"Employee Details: {result.EmployeeDetails}, Department Name: {result.DepartmentName}, Company Name: {result.CompanyName}");
             }
             Console.WriteLine();
 
@@ -336,5 +353,3 @@ namespace Employee
         
             
 }
-    
-
