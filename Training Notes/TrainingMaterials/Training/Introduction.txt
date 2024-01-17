@@ -1,0 +1,8 @@
+Name :
+Where are you from :
+Qualification :
+hobby :
+Favourite Actor/Actress/SportsPerson :
+Why : 
+Software Exposure :
+Long term Goal :

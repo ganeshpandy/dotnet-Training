@@ -1,0 +1,77 @@
+P1 :
+User Details from User Entry (Console.ReadLine())
+Input :
+	Name :
+	Age  :
+	Address:
+	Email:
+
+Output : 
+Hi "UserName"
+Age  : userinput
+Address:userinput
+Email:userinput
+
+P2 :
+Employee details :
+ID :
+	Age  :
+	Address:
+	Email:
+	DOB:
+	
+Output : 
+Print like the below
+ID :
+	Age  :
+	Address:
+	Email:
+	DOB:
+	
+P3:
+Login Details:
+Username 
+Password 
+
+
+P4 :
+Order Details:
+
+P5 :
+FoodMenu 
+
+P6:
+NameSpace Excercise :
+Create NameSpace called Animal 
+	create 4 classes called dog,cat,cow,tiger
+
+P7:
+Namespace : Vechile 
+Classes : car,bike,scooter
+
+P8:
+NameSpace : Employee
+class : contract ,temporary,permenant
+
+P9:
+NameSpace : subject
+class : tamil ,english,Hindi
+
+P10:
+NameSpace : Training
+class : Python ,Dotnet,Java
+
+---
+DataTypes :
+Add,Sub, Multiplication,Div
+Data Type
+int
+long
+float
+double
+bool
+char
+string
+
+
+

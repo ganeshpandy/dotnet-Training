@@ -1,0 +1,76 @@
+P21 :
+Samples for All the Comparison Operators
+
+
+
+P22 :
+Samples for All the Logical  Operators
+	
+P23:
+Math Functions : Exploration 
+
+P24:
+String Functions 
+
+P25:
+If Else :
+Input : Get the time like (1,2,22)
+Output : display Good Morning Or Afternoon Or Evening Or Night 
+
+P26:
+If Else :
+Input : Get the Day like (1,2,3,4,5,6,7)
+Output :  1=> Monday
+		2 => Tuesday
+		3=> Wednesday
+		4=> Thursday
+		5=>Friday
+		6 => Saturday
+		7= > Sunday
+		
+P27:
+If Else if ... :
+Input : Get the Month like (1,2,3,4,5,6,7,8,9,10,11,12)
+Output :  1=> Janurary
+		2 => February
+		.....
+		....
+		...
+		
+		12 => December
+		
+P28:
+while and do while :
+
+
+P29:
+Switch :
+Input : Get the Day like (1,2,3,4,5,6,7)
+Output :  1=> Monday
+		2 => Tuesday
+		3=> Wednesday
+		4=> Thursday
+		5=>Friday
+		6 => Saturday
+		7= > Sunday
+		
+P30:
+Switch :
+Input : Get the Month like (1,2,3,4,5,6,7,8,9,10,11,12)
+Output :  1=> Janurary
+		2 => February
+		.....
+		....
+		...
+		
+		12 => December
+
+P31:
+For :
+
+
+P32:
+For Each:
+
+P33:
+Array Functions :

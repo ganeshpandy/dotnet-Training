@@ -1,0 +1,373 @@
+    static void Main(string[] args)
+        {
+            //Benz
+            Car carBenz = new Car("Benz","Red", DateTime.Now);
+
+            //BMW
+            Car carBmv = new Car("BMW", "Silver", DateTime.Now);
+
+            //Audi
+            Car carAudi = new Car("Audi", "Silver", DateTime.Now);
+
+            //Benz
+            //car.model = "Benz";
+            //car.color = "Red";
+            //car.YearofMade = DateTime.Now;
+
+
+            //BMW
+            //car.model = "BMW";
+            //car.color = "Silver";
+            //car.YearofMade = DateTime.Now;
+
+
+            ////Audi
+            //car.model = "Audi";
+            //car.color = "Blue";
+            //car.YearofMade = DateTime.Now;
+
+        }
+
+    }
+
+
+ 
+ class Car
+    {
+
+
+
+        public string model { get; set; }
+            
+        public string color { get; set; }
+        public DateTime YearofMade { get; set; }
+
+
+        public  Car(string modelInput,string colorInput, DateTime YearofMadeInput)
+        {
+            model = modelInput;
+            color = colorInput;
+            YearofMade= YearofMadeInput;
+        }
+    }
+	
+	-------------
+	
+	
+	    static void Main(string[] args)
+        {
+           
+            Rest rest = new Rest();
+            rest.Id = "Rest ID1";
+            rest.Address = "Address From Rest";
+           
+
+            Example example = new Example();
+            example.Name = "Test";
+
+            example.Id = "Inherited ID";
+            example.Description = "Description";
+            example.Address = "address";
+            example.State  = "state";
+
+            example.Print();
+        }
+
+    }
+     
+    class Rest
+    {
+        public string Id;
+        public string Address;
+        public string State;
+
+        public void Print()
+        {
+            Console.WriteLine("I am from Class Rest and Print()");
+        }
+    }
+
+    class Example : Rest
+    {
+        public string Name;
+        public string Description;
+    }
+
+
+------------
+
+
+ class Test
+    {
+        // Example Oject =Example Class Properties+Methods  + Rest Class Properties+Methods 
+
+        static void Main(string[] args)
+        {
+           Animal animal = new Animal();
+            animal.Eat();
+
+            Cow cow = new Cow();
+            cow.CowEat();
+            cow.Eat();
+        }
+
+    }
+     
+    class Animal
+    {
+
+        public void Eat()
+        {
+            Console.WriteLine("I am from class Animal and Eat()");
+        }
+     
+    }
+
+    class Cow : Animal
+    {
+        public void CowEat()
+        {
+            Console.WriteLine("I am from class Cow and CowEat()");
+        }
+
+    }
+	--------------
+	  static void Main(string[] args)
+        {
+            Company company = new Company();
+            company.GetCompanyName  ();
+
+
+            Employer employer   = new Employer();
+            employer.GetEmployerDetails();
+            employer.GetCompanyName();
+
+        }
+	
+	  class Company
+        {
+            public void GetCompanyName()
+            {
+            Console.WriteLine("SISN- Chennai");
+            }
+       }
+
+
+    class Employer : Company
+    {
+        public void GetEmployerDetails()
+        {
+            Console.WriteLine("SISN- Training Folks");
+        }
+
+    }
+	
+	--------
+	
+	
+	
+	 class Test
+    {
+        // Example Oject =Example Class Properties+Methods  + Rest Class Properties+Methods 
+
+        static void Main(string[] args)
+        {
+            A objA = new A();
+            objA.PrintA();
+
+            B objB = new B();
+            objB.PrintB();
+            objB.PrintA();
+           
+
+            C objC = new C();
+            objC.PrintC();
+            objC.PrintA();
+            objC.PrintB();
+
+
+
+
+        }
+
+    }
+
+    class A
+    {
+        public void PrintA()
+        {
+            Console.WriteLine("I am from  class A And PrintA() ");
+        }
+        //A only access
+    }
+
+
+    class B : A
+    {
+        public void PrintB()
+        {
+            Console.WriteLine("I am from  class A And PrintB() ");
+        }
+
+        //B = B+ A 
+    }
+
+    class C : B
+    {
+
+        public void PrintC()
+        {
+            Console.WriteLine("I am from  class A And PrintC() ");
+        }
+
+        // C = B 
+        //C = (B+A)
+        //C  = B + A ;
+    }
+	
+	--------------------
+	  class Test
+    {
+        // Example Oject =Example Class Properties+Methods  + Rest Class Properties+Methods 
+
+        static void Main(string[] args)
+        {
+
+            Region region   = new Region();
+
+            region.GetRegion();
+            region.GetCompanyName   ();
+
+            Clients clients = new Clients();
+            clients.GetClients ();
+            clients.GetRegion ();
+            clients.GetCompanyName();
+
+        }
+
+    }
+
+    class Company
+    {
+        public void GetCompanyName()
+        {
+            Console.WriteLine("SISN- India");
+        }
+        
+    }
+
+
+    class Clients : Region
+    {
+        public void GetClients()
+        {
+            Console.WriteLine("SISn Clients ");
+        }
+        //Clients = Region ; 
+        //Clients = Region + Company
+
+    }
+
+    class Region : Company 
+    {
+
+        public void GetRegion()
+        {
+            Console.WriteLine("SISn India Region ");
+        }
+
+       
+    }
+  
+  
+  
+  ----------------
+  
+  
+    class Test
+    {
+        // Example Oject =Example Class Properties+Methods  + Rest Class Properties+Methods 
+
+        static void Main(string[] args)
+        {
+
+            A obj   = new A();
+            obj.Print();
+            obj.Print("Leo");
+            obj.Print("Leo","Messi");
+
+        }
+
+    }
+
+
+    //OverLoading
+  class A
+    {
+
+     
+
+
+        public void Print()
+        {
+            Console.WriteLine("I am from class A and Print()");
+        }
+
+
+        public void Print(string Fname)
+        {
+            Console.WriteLine("I am from class A and Print()");
+        }
+
+
+        public void Print(string Fname, string LName)
+        {
+            Console.WriteLine("I am from class A and Print()");
+        }
+
+    }
+	
+	
+	------------------------------
+	
+	 class Test
+    {
+        // Example Oject =Example Class Properties+Methods  + Rest Class Properties+Methods 
+
+        static void Main(string[] args)
+        {
+            B objectB = new B();
+
+            objectB.Print();
+        }
+
+    }
+
+
+    //Overridding 
+  class A
+    {
+
+        public virtual void Print()
+        {
+            Console.WriteLine("I am from class A and Print()");
+        }
+
+    }
+
+
+    class B : A
+    {
+
+        public override void Print()
+        {
+            Console.WriteLine("I am from class B and Print()");
+            base.Print();
+        }
+
+    }
+	
+	
+	-----------------
+	
+	

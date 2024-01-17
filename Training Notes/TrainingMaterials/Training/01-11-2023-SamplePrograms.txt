@@ -1,0 +1,262 @@
+  static void Main(string[] args)
+        {
+
+            GetMovie();
+            GetTicket();
+            GetTheatre();
+            OrderFood();
+        }
+
+        static void GetMovie()
+        {
+            Console.WriteLine("My Movie is Jawaan");
+        }
+
+        static void GetTicket()
+        {
+            Console.WriteLine("Ticket is booked");
+        }
+
+        static void GetTheatre()
+        {
+            Console.WriteLine("INOX is the theatre");
+        }
+
+
+        static void OrderFood()
+        {
+            Console.WriteLine("Ordered Popcorn and Pepsi");
+        }
+
+
+--------------
+
+ static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter Employee 1: ");
+            string EmpName1 = Console.ReadLine();
+
+            Console.WriteLine("Enter Employee 2: ");
+            string EmpName2= Console.ReadLine(); 
+            
+            if(EmpName1 == "Dharmesh" || EmpName2 == "Kiran")
+            {
+                Console.WriteLine("Allow to SIS Training");
+
+            }
+            else
+            {
+                Console.WriteLine("Deny to training");
+            }
+          
+		  
+-------------------------
+
+  static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter UserName ");
+            string UserName = Console.ReadLine();
+
+            Console.WriteLine("Enter Password ");
+            string Password = Console.ReadLine(); 
+            
+            if(UserName == "admin" && Password == "password@123")
+            {
+                Console.WriteLine("Success Login");
+
+            }
+            else
+            {
+                Console.WriteLine("Credentials not valid ");
+            }
+          
+        }
+	---------------------
+	
+	 static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter UserName ");
+            string UserName = Console.ReadLine();
+
+            Console.WriteLine("Enter Password ");
+            string Password = Console.ReadLine(); 
+            
+            if(UserName == "admin" && Password == "password@123")
+            {
+                Console.WriteLine("Success Login");
+
+            }
+            else
+            {
+                Console.WriteLine("Credentials not valid ");
+            }
+          
+        ------------------------
+		
+		
+		if()
+		{
+			if()
+			{
+			
+			}
+			
+			else
+			{
+			
+			}
+		}
+		
+		else
+		{
+			if()
+			{
+			
+			}
+			
+			else
+			{
+			
+			}
+		}
+----------------------
+  static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 5;
+            int c = 9;
+            
+            if(a> b)
+            {
+                if(a > c)
+                {
+                    Console.WriteLine("A is grater tha B and C");
+                }
+                else
+                {
+                    Console.WriteLine("A is grater tha B and  lesser than C");
+                }
+            }
+          else
+            {
+                if(b > c)
+
+                {
+                    Console.WriteLine("B is grater tha A and C");
+
+                }
+
+                else
+                {
+                    Console.WriteLine("B is grater tha A and lesser than C");
+
+                }
+            }
+
+
+            
+
+        }
+------------------------------
+
+using System;
+using System.ComponentModel;
+
+namespace Employees
+{
+    class Employee
+    {
+       
+
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 5;
+            int c = 9;
+            
+            if(a> b)
+            {
+                Console.WriteLine("a> b Loop Start");
+                if(a > c)
+                {
+                    Console.WriteLine("A is grater tha B and C");
+                }
+                else
+                {
+                    Console.WriteLine("A is grater tha B and  lesser than C");
+                }
+
+                Console.WriteLine("a> b Loop Ends");
+            }
+          else
+            {
+                if(b > c)
+
+                {
+                    Console.WriteLine("B is grater tha A and C");
+
+                }
+
+                else
+                {
+                    Console.WriteLine("B is grater tha A and lesser than C");
+
+                }
+            }
+
+
+            
+
+        }
+
+      
+
+    }
+
+
+}
+
+---------
+
+ if(false)
+            {
+                Console.WriteLine("I am from 1st IF");
+            }
+
+           else if(false)
+            {
+                Console.WriteLine("I am from 2nd IF");
+            }
+            else
+            {
+                Console.WriteLine("I am from Else");
+            }
+		-------------
+		
+		
+		   
+            switch ('u')
+            {
+                case 'a':
+                    Console.WriteLine("Team India");
+                    break;
+                case 'b':
+                    Console.WriteLine("Team England");
+                    break;
+                case 'c':
+                    Console.WriteLine("Team Pakistan");
+                    break;
+                 default:
+                    Console.WriteLine("Team Afganistan");
+                    break;
+
+            }
+			
+			---------
+			
+			
+			
+			

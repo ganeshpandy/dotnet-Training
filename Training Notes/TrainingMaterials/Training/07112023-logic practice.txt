@@ -1,0 +1,106 @@
+1) Fibonacci Series
+Write a c# program to print fibonacci series without using recursion and using recursion.
+
+Input: 15
+Output: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+
+
+2) Prime number
+Write a c# program to check prime number.
+
+Input: 17
+Output: prime number
+Input: 57
+Output: not prime number
+
+3) Palindrome number
+Write a c# program to check palindrome number.
+Input: 121
+Output: palindrome number
+Input: 113
+Output: not palindrome number
+
+4) Factorial
+Write a c# program to print factorial of a number.
+
+Input: 6
+Output: 720
+
+5) Armstrong number
+Write a c# program to check armstrong number.
+
+Input: 371
+Output: armstrong
+Input: 342
+Output: not armstrong
+
+
+6) Sum of Digits
+Write a c# program to print sum of digits.
+
+Input: 23
+Output: 5
+Input: 624
+Output: 12
+
+7) Reverse Number
+Write a c# program to reverse given number.
+
+Input: 234
+Output: 432
+
+8) Swap two numbers without using third variable
+Write a c# program to swap two numbers without using third variable.
+
+Input: a=5 b=10
+Output: a=10 b=5
+
+
+
+10) Alphabet Triangle
+Write a c# program to print alphabet triangle.
+
+Output:
+
+     A
+    ABA
+   ABCBA
+  ABCDCBA
+ ABCDEDCBA
+11) Number Triangle
+Write a c# program to print number triangle.
+
+Input: 5
+Output:
+
+
+enter the range= 6
+      1
+     121
+    2321
+   1234321 
+  123454321
+ 12345654321  
+
+12) Fibonacci Triangle
+Write a c# program to generate fibonacci triangle.
+
+Input: 9
+Output:
+
+1	
+1	1	
+1	1	2	
+1	1	2	3	
+1	1	2	3	5	
+1	1	2	3	5	8	
+1	1	2	3	5	8	13	
+1	1	2	3	5	8	13	21	
+1	1	2	3	5	8	13	21	34
+		
+13) Number in Characters
+Write a c# program to convert number in characters.
+
+Input: 357546
+
+Output:three five seven five four six

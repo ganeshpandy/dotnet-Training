@@ -1,0 +1,80 @@
+ static void Main(string[] args)
+        {
+           
+            test testObj = new test();
+            testObj.testAbstract();
+            testObj.testPrint();
+            testObj.testExecute();
+
+
+        }
+
+
+        abstract class AbstractTest
+        {
+            public abstract void testAbstract();
+            public abstract void testPrint();
+           
+            public void testExecute()
+            {
+                Console.WriteLine("I am from Class AbstractTest and testExecute()");
+            }
+        }
+
+
+        class test : AbstractTest
+        {
+            public override void testAbstract()
+            {
+                Console.WriteLine("I am from Class test and testAbstract");
+            }
+
+            public override void testPrint()
+            {
+                Console.WriteLine("I am from Class test and testPrint");
+            }
+        }
+		
+		-----------
+		
+		   static void Main(string[] args)
+        {
+
+            SISnCompany sISnCompany = new SISnCompany();
+
+            sISnCompany.GetEmployeeSalary();
+            sISnCompany.GetEmployeeCount();
+            sISnCompany.GetCompanyName();
+
+
+        }
+
+
+        abstract class Company
+        {
+          public void GetCompanyName()
+            {
+                Console.WriteLine("SISn India");
+            }
+
+            public abstract void GetEmployeeSalary();
+
+            public abstract void GetEmployeeCount();
+
+        }
+
+
+        class SISnCompany : Company
+        {
+            public override void GetEmployeeCount()
+            {
+                Console.WriteLine("SISn India Count 500");
+            }
+
+            public override void GetEmployeeSalary()
+            {
+                Console.WriteLine("SISn India Average Salary  60000");
+            }
+        }
+		
+		---------------

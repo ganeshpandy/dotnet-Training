@@ -1,0 +1,336 @@
+
+            System.IO.File.Replace("D:\\SIS\\test\test1.txt", "D:\\SIS\\test\test2.txt", "D:\\SIS\\test\test3.txt");
+
+            Console.WriteLine("");
+			
+			try
+            {
+                System.IO.File.Replace("D:\\SIS\\test\\test1.txt", "D:\\SIS\\test\\test2.txt", "D:\\SIS\\test\\test3.txt");
+
+                Console.WriteLine("Replaced");
+
+            }
+
+            catch(Exception ex) 
+            {
+                string exception = ex.ToString();
+
+                Console.WriteLine("Input File Error");
+            }
+
+
+
+--
+
+
+ ArrayList arrayList = new ArrayList();
+
+            arrayList.Add(1);
+            arrayList.Add(2);
+            arrayList.Add(3);
+            arrayList.Add("SIS");
+            arrayList.Add(true);
+
+
+            
+
+            Console.WriteLine(arrayList.Count);
+
+            foreach(var item in arrayList) 
+            {
+                Console.WriteLine(item);
+            }
+
+
+            for(int i = 0;i<  arrayList.Count;i++)
+            {
+                Console.WriteLine(arrayList[i]);
+            }
+
+
+-----------
+
+  ArrayList arrayList1 = new ArrayList() { "ar1","ar1.1"};
+
+            ArrayList arrayList2 = new ArrayList() { "ar2","ar2.2"};
+
+            Console.WriteLine("Before Merging the Array...");
+
+            Console.WriteLine("arrayList1 Items...");
+            foreach (var item in arrayList1)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("arrayList2 Items...");
+            foreach (var item in arrayList2)
+            {
+
+                Console.WriteLine(item);
+            }
+
+
+            arrayList1.AddRange(arrayList2);  // arrayList1 = arrayList1 + arrayList2;  arrayList2 = arrayList2;
+
+
+            Console.WriteLine("After Merging the Array...");
+
+
+            Console.WriteLine("arrayList1 Items...");
+            foreach (var item in arrayList1)
+            {
+                Console.WriteLine(item);
+            }
+
+            //foreach (var item in arrayList2)
+            //{
+            //    Console.WriteLine(item);
+            //}
+			
+			------------
+			
+			
+			 ArrayList entities = new ArrayList() { "Car","Apple","Bus","Zoom"};
+
+            Console.WriteLine("Before sorting .. ");
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+
+            entities.Sort();
+
+
+            Console.WriteLine("After sorting .. ");
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+			
+			----------
+			
+			
+			  ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            Console.WriteLine("Before sorting .. ");
+
+            if(entities != null && entities.Count > 0)
+            {
+                foreach (var item in entities)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+
+            if (entities != null)
+            {
+                entities.Clear();
+            }
+   
+          
+
+
+            Console.WriteLine("After sorting .. ");
+
+            if (entities != null && entities.Count > 0)
+            {
+                foreach (var item in entities)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+             
+			 
+			 ---
+			 
+			 
+			   ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            if(entities != null && entities.Count > 0)
+            {
+                Console.WriteLine("Before sorting .. ");
+
+                    foreach (var item in entities)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
+
+                 entities.Clear();
+
+
+
+
+                    Console.WriteLine("After sorting .. ");
+
+              
+                    foreach (var item in entities)
+                    {
+                        Console.WriteLine(item);
+                    }
+                
+            }
+			
+			----------
+			
+			
+			  ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+
+            Console.WriteLine(entities[0]);
+            Console.WriteLine(entities[1]);
+            Console.WriteLine(entities[2]);
+
+            entities[2] = "New Item";
+
+            Console.WriteLine(entities.Count);
+
+            Console.WriteLine(entities[0]);
+            Console.WriteLine(entities[1]);
+            Console.WriteLine(entities[2]);
+			
+			-----------------
+			
+			 ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            Console.WriteLine("Before Insert the value" + entities.Count);
+
+
+
+            entities.Insert(1, "New Value");
+
+            Console.WriteLine("After Insert the value" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+			
+			-----------
+			
+			ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            Console.WriteLine("Before Insert the value" + entities.Count);
+
+            ArrayList entitiesNewColection = new ArrayList() { "New1", "New2"};
+
+            entities.InsertRange(1, entitiesNewColection);
+
+            Console.WriteLine("After Insert the value" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+			
+			--------------
+			
+			
+			   ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            Console.WriteLine("Before  Delete the entities" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+
+            entities.RemoveAt(0);
+
+            Console.WriteLine("After  RemoveAt the entities" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+			
+			---
+			
+			 ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            Console.WriteLine("Before  Delete the entities" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+
+            entities.RemoveRange(0,2);
+
+            Console.WriteLine("After  RemoveAt the entities" + entities.Count);
+
+            foreach (var item in entities)
+            {
+                Console.WriteLine(item);
+            }
+			
+			---
+			
+			
+			 ArrayList entities = new ArrayList() { "arr1","arr2","arr3"};
+
+            ArrayList entitiesCloneNew = (ArrayList)entities.Clone();
+
+           
+
+            foreach (var item in entitiesCloneNew)
+            {
+                Console.WriteLine(item);
+            }
+			
+			--------
+			
+			
+			  Queue queue = new Queue();
+            queue.Enqueue(1);  //Add the items
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+
+
+
+            Console.WriteLine(queue.Count);
+
+            foreach(var item in queue) 
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("After Deque");
+
+            queue.Dequeue();
+
+            Console.WriteLine(queue.Count);
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+
+            queue.Dequeue();
+
+            Console.WriteLine("After 2nd Deque");
+
+            Console.WriteLine(queue.Count);
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+			
+			-----
+			
+			
+			Employee  - Id , Name, Address , 
+Order 
+TicketBooing
+Company
+FoodBallTeam
+
+
+----Home Practice 
+
+
+https://learn.microsoft.com/en-us/training/modules/csharp-write-first/4-challenge?ns-enrollment-type=learningpath&ns-enrollment-id=learn.build-dotnet-applications-csharp
+

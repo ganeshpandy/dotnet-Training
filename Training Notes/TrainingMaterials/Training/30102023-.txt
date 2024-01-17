@@ -1,0 +1,78 @@
+P11 :
+User Details from User Entry (Console.ReadLine())
+
+Input :
+UserName :
+Password :
+	
+Method Parameters: UserName,Password
+
+Output : 
+Your UserName : "UserName User Input":
+Your Password : "Password User Input":
+
+P12 :
+Employee details :
+ID :
+	Age  :
+	Address:
+	Email:
+	DOB:
+
+
+Method Parameters: Age,Address,Email,DOB
+
+
+Output : 
+Print like the below
+ID :
+	Age  :
+	Address:
+	Email:
+	DOB:
+	
+P13:
+Movie Tickets Details:
+Movie Name 
+Theatre
+Show Date & Time 
+Seat No : 
+
+Multiple Parameters :
+
+P14 :
+ Amazon Order Details:
+ Multiple Parameters Methods :
+
+P15 :
+Swiggy Food Menu 
+Multiple Parameters :
+
+P16:
+Railway Train Ticket Booking 
+5 Parameters
+
+P17:
+Pizza Ordering 
+5 Parameters Methods
+
+P18:
+CricInfo Score
+5 Parameters Methods With default Methods
+
+P19:
+Calculator 
+Add 
+Sub 
+Mul 
+Div
+Using Methods 
+
+
+
+P20:
+Employee Details :
+5 Parameters Methods With default Methods : Id, EmpName, EmpEmail, EmpAddress, EmpSalary
+
+
+
