@@ -29,8 +29,9 @@
             }
             else
             {
-                Console.WriteLine(num+ "is not a prime number");
+                Console.WriteLine(num + "is not a prime number");
             }
+
             return count;
         }
     }

@@ -2,24 +2,40 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        
+        static async Task Main(string[] args)
         {
-            MyThread mt = new MyThread();
-            Thread t1 = new Thread(new ThreadStart(mt.Thread1));
-            Thread t2 = new Thread(new ThreadStart(mt.Thread1));
-            t1.Start();
-            t2.Start();
+            await WakeUp();
+            await Eat();
+            await Work();           
+            
         }
-    }
-    public class MyThread
-    {
-        public void Thread1()
-        {
-            for (int i = 0; i < 10; i++)
+        public static async Task Work()
+        {            
+            await Task.Run(() => 
             {
-                Console.WriteLine(i);
-                Thread.Sleep(200);
-            }
+                Thread.Sleep(1000);
+                Console.WriteLine("Working Method");
+            });            
+        }
+        public static async Task WakeUp()
+        {
+            await Task.Run(() => 
+            {
+                Thread.Sleep(2000);
+                Console.WriteLine("WakeUp Method");
+            });
+            
+        }
+        public static async Task Eat()
+        {
+            await Task.Run(() => 
+            {
+                Thread.Sleep(800);
+                Console.WriteLine("Eating Method");
+            });
+            
         }
     }
+    
 }

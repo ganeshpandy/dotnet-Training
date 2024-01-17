@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{1EC89FAD-471B-4EEC-B848-37B5644DCFCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{0095CBBD-FCFF-475F-A6DB-D528198192B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EC89FAD-471B-4EEC-B848-37B5644DCFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EC89FAD-471B-4EEC-B848-37B5644DCFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EC89FAD-471B-4EEC-B848-37B5644DCFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EC89FAD-471B-4EEC-B848-37B5644DCFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0095CBBD-FCFF-475F-A6DB-D528198192B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0095CBBD-FCFF-475F-A6DB-D528198192B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0095CBBD-FCFF-475F-A6DB-D528198192B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0095CBBD-FCFF-475F-A6DB-D528198192B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9355BAB3-132E-43A2-A338-5CD93711A678}
+		SolutionGuid = {74EC9123-F465-4FA6-B87E-58447707C1BC}
 	EndGlobalSection
 EndGlobal

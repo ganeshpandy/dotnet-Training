@@ -13,23 +13,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumber2", "PrimeNumber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{30F37B4B-627C-4174-84CF-3FED1D97F664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{3D944DEE-4957-49F4-927D-DE1F035FDF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Factorial\Factorial.csproj", "{3D944DEE-4957-49F4-927D-DE1F035FDF11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmstrongNo", "ArmstrongNo\ArmstrongNo.csproj", "{C5B1AD2D-31E3-47DD-A808-0481CD1A724F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmstrongNo", "ArmstrongNo\ArmstrongNo.csproj", "{C5B1AD2D-31E3-47DD-A808-0481CD1A724F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{B9D99DAA-7D59-4A54-B02A-20BE609C899F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{B9D99DAA-7D59-4A54-B02A-20BE609C899F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Reverse\Reverse.csproj", "{CBA0DD23-5774-4E25-9B34-E9750568A996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse", "Reverse\Reverse.csproj", "{CBA0DD23-5774-4E25-9B34-E9750568A996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap", "Swap\Swap.csproj", "{778747F4-CDA4-410C-BEF5-660EEB8828C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap", "Swap\Swap.csproj", "{778747F4-CDA4-410C-BEF5-660EEB8828C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaTri", "AlphaTri\AlphaTri.csproj", "{EF3768C4-C8B7-4E1B-A83A-CC9562942C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaTri", "AlphaTri\AlphaTri.csproj", "{EF3768C4-C8B7-4E1B-A83A-CC9562942C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberTri", "NumberTri\NumberTri.csproj", "{EB9E4A59-62AD-453D-81CF-F9D447017B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberTri", "NumberTri\NumberTri.csproj", "{EB9E4A59-62AD-453D-81CF-F9D447017B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciTri", "FibonacciTri\FibonacciTri.csproj", "{4D29A915-00CC-4ADE-806D-B535EA552A2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciTri", "FibonacciTri\FibonacciTri.csproj", "{4D29A915-00CC-4ADE-806D-B535EA552A2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumToChar", "NumToChar\NumToChar.csproj", "{65ABA858-BFD6-480C-AAB4-9D2F10003680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumToChar", "NumToChar\NumToChar.csproj", "{65ABA858-BFD6-480C-AAB4-9D2F10003680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexCal", "IndexCal\IndexCal.csproj", "{23CA3246-2170-4531-A9F2-82DAF8364CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern", "Pattern\Pattern.csproj", "{6A4240F4-C665-4A3A-9C0C-683DD406E002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{65ABA858-BFD6-480C-AAB4-9D2F10003680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65ABA858-BFD6-480C-AAB4-9D2F10003680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65ABA858-BFD6-480C-AAB4-9D2F10003680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CA3246-2170-4531-A9F2-82DAF8364CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CA3246-2170-4531-A9F2-82DAF8364CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CA3246-2170-4531-A9F2-82DAF8364CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CA3246-2170-4531-A9F2-82DAF8364CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4240F4-C665-4A3A-9C0C-683DD406E002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4240F4-C665-4A3A-9C0C-683DD406E002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4240F4-C665-4A3A-9C0C-683DD406E002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4240F4-C665-4A3A-9C0C-683DD406E002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

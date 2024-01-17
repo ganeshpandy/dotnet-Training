@@ -1,4 +1,4 @@
-﻿namespace Asynchronous
+﻿namespace Thread
 {
     internal class Program
     {
