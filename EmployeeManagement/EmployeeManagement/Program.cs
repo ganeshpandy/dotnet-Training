@@ -17,7 +17,7 @@ namespace EmployeeManagement
           options.UseSqlServer(builder.Configuration.GetConnectionString("connectDB")));
 
             builder.Services.AddControllers();
-            builder.Services.AddScoped<ICompany, CompanyRespository>();
+            builder.Services.AddScoped<IAttendance, AttendanceRespository>();
             builder.Services.AddScoped<IEmployee, EmployeeRespository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

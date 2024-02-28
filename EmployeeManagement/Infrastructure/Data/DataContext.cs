@@ -1,5 +1,4 @@
-﻿using EmployeeManagement.Domain.Model.Company;
-using EmployeeManagement.Domain.Model.Employee;
+﻿using EmployeeManagement.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -17,10 +16,10 @@ namespace EmployeeManagement.Infrastructure.Data
         public DataContext(DbContextOptions options) : base(options)
         {
         }
-        public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<Attendance> Attendances { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Company;Integrated Security=True;TrustServerCertificate=True;");
+            => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Employee;Integrated Security=True;TrustServerCertificate=True;");
 
     }
 }

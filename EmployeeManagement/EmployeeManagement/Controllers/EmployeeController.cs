@@ -1,6 +1,6 @@
 ﻿using EmployeeManagement.Application.Services;
-using EmployeeManagement.Domain.Model.Company;
-using EmployeeManagement.Domain.Model.Employee;
+using EmployeeManagement.Domain.Entities;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

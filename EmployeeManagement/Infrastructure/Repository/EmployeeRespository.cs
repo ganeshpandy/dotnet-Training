@@ -1,6 +1,5 @@
 ﻿using EmployeeManagement.Application.Services;
-using EmployeeManagement.Domain.Model.Company;
-using EmployeeManagement.Domain.Model.Employee;
+using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -41,8 +40,7 @@ namespace EmployeeManagement.Infrastructure.Repository
                     .FirstOrDefaultAsync(C => C.Id == employee.Id);
             if (result != null)
             {
-                result.Salary = employee.Salary;
-                result.Address = employee.Address;
+               
             }
             return result;
         }
