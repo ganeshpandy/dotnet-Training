@@ -1,4 +1,4 @@
-﻿using EmployeeManagement.Application.Services;
+﻿using EmployeeManagement.Application.Interfaces;
 using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Infrastructure.Repository
 {
-    public class AttendanceRespository : IAttendance
+    public class AttendanceRespository :IAttendance
     {
         private readonly DataContext _context;
 

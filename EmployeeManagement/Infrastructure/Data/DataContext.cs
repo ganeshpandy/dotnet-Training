@@ -1,4 +1,6 @@
-﻿using EmployeeManagement.Domain.Entities;
+﻿using EmployeeManagement.Application.Interfaces;
+using EmployeeManagement.Domain.Entities;
+using EmployeeManagement.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -20,6 +22,6 @@ namespace EmployeeManagement.Infrastructure.Data
         public virtual DbSet<Employee> Employees { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Employee;Integrated Security=True;TrustServerCertificate=True;");
-
+        
     }
 }

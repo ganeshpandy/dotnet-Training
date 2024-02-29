@@ -1,4 +1,4 @@
-﻿using EmployeeManagement.Application.Services;
+﻿using EmployeeManagement.Application.Interfaces;
 using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +11,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace EmployeeManagement.Infrastructure.Repository
 {
-    public class EmployeeRespository : IEmployee
+    public class EmployeeRespository:IEmployee
     {
         private readonly DataContext _context;
 
@@ -45,7 +45,7 @@ namespace EmployeeManagement.Infrastructure.Repository
             return result;
         }
 
-        public async Task DeleteEmployee(int id)
+        public async Task<Employee> DeleteEmployee(int id)
         {
             var result = await _context.Employees
              .FirstOrDefaultAsync(C => C.Id == id);
@@ -54,6 +54,7 @@ namespace EmployeeManagement.Infrastructure.Repository
                 _context.Employees.Remove(result);
                 await _context.SaveChangesAsync();
             }
+            return result;
         }
 
         

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement.Application.Services
+namespace EmployeeManagement.Application.Interfaces
 {
     public interface IEmployee
     {
@@ -13,6 +13,6 @@ namespace EmployeeManagement.Application.Services
         Task<IEnumerable<Employee>> GetAllEmployees();
         Task<Employee> AddEmployee(Employee employee);
         Task<Employee> UpdateEmployee(Employee employee);
-        Task DeleteEmployee(int id);
+        Task<Employee> DeleteEmployee(int id);
     }
 }
